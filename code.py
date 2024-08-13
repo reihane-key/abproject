@@ -1,5 +1,12 @@
-mystring="aaabbaaabbbbbddjjaaaaj"
-mychar1="a"
-print(mystring.count(mychar1))
-mychar2="b"
-print(mystring.count(mychar2))
+my_str="aaabbbbddfgb"
+num_a=0
+num_b=0
+for i in my_str:
+    if i=="a":
+       num_a=num_a+1
+    if i=="b":
+    
+       num_b=num_b+1
+print(num_a)
+print(num_b)
+        
